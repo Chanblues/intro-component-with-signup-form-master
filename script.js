@@ -1,10 +1,10 @@
-const name = document.getElementsByClassName("uinput");
+const name = document.getElementsByTagName("input");
 const SignupForm = document.getElementById("uform");
 
-const firstName = document.querySelector(".fname");
-const lastName = document.querySelector(".lname");
-const email = document.querySelector(".mail");
-const password = document.querySelector(".pswd");
+const firstName = document.querySelector("#fname");
+const lastName = document.querySelector("#lname");
+const email = document.querySelector("#mail");
+const password = document.querySelector("#pswd");
 const error_message = document.querySelectorAll(".err");
 
 for (let i = 0; i < name.length; i++) {

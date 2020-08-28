@@ -92,7 +92,7 @@ form input, button {
     /* display: none; */
  }
 
-.uinput {
+form input {
     padding: 18px 0 18px 30px;
     border: 1px solid hsl(246, 25%, 77%);
     color: hsl(249, 10%, 26%);

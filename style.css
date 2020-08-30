@@ -121,6 +121,11 @@ form button {
     box-shadow: 0 4px 0 0 hsl(154, 57%, 46%);
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+  }
+
 @media screen and (max-width: 850px) {
     body {
         margin: 80px 15px;
@@ -145,7 +150,7 @@ form button {
     }
 
     footer {
-        bottom: -35%;
+        bottom: -25%;
     } 
 
 }

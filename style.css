@@ -128,6 +128,7 @@ footer {
 
 @media screen and (max-width: 850px) {
     body {
+        display: block;
         margin: 80px 15px;
     }
 
@@ -150,8 +151,9 @@ footer {
     }
 
     footer {
-        bottom: -25%;
-    } 
+        position: relative;
+        margin-top: 20px;
+      }
 
 }
 
